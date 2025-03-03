@@ -19,6 +19,8 @@
 #pragma config WRT = OFF        // Flash Program Memory Write Enable bits (Write protection off; all program memory may be written to by EECON control)
 #pragma config CP = OFF         // Flash Program Memory Code Protection bit (Code protection off)
 
+//This is the change i made in main.c
+
 #define RS PORTBbits.RB0
 #define RW PORTBbits.RB1
 #define EN PORTBbits.RB2
